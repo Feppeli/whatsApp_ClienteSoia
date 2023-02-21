@@ -12,7 +12,7 @@ main{
 #mainContainer{
 
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
 
@@ -73,8 +73,43 @@ main{
 
 @media(min-width: 800px){
     #mainContainer {
-        flex-direction: row;
         max-width: none;
         padding-right: 300px;
+    }
+    #side2{
+        max-width: 450px;
+    }
+}
+
+
+/* Mesagens */
+
+#side2{
+    display: flex;
+}
+
+#talkMobile {
+
+    max-width: 100%;
+}
+
+@media(max-width: 998px){
+    #talkDesktop{
+        display: none;
+    }
+}
+
+@media(min-width: 999px){
+    #mainContainer{
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0;
+    }
+    #talkMobile{
+        display: none;
+    }
+    #talkDesktop{
+        display: static;
+        max-height: 500px;
     }
 }

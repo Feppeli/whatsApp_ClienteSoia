@@ -4,7 +4,7 @@ header{
     -webkit-backdrop-filter: blur( 4px );
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 
-    position: absolute;
+    position: fixed;
     z-index: 1;
 
     width: 100%;
@@ -21,7 +21,7 @@ nav{
 }
 
 #logoNav img{
-    max-width: 45px;
+    max-width: 150px;
 }
 nav button{
     width: 45px;
