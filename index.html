@@ -5,21 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="style/global.css">
     <link rel="stylesheet" href="style/nav.css">
+    <link rel="stylesheet" href="style/main.css">
 
     <title>WhatsApp</title>
 </head>
 <body>
     <header>    
-        <nav>
-            <button><i class="fa-solid fa-bars fa-2x"></i></button>
+        <nav >
+            <button onclick=menu()><i class="fa-solid fa-bars fa-2x"></i></button>
             <div id="logoNav">
                 <img src="src/img/loogoapp.fw.png" alt="">
             </div>
-            <a href=""><i class="fa-solid fa-arrow-down"></i></a>
+            <a href=""><p>Baixar</p> <i class="fa-solid fa-arrow-down"></i></a>
         </nav>
     </header>
+
+    <main>
+        <div id="mainContainer" class="container">
+            <div id="side1">
+                <h1>Privacidade para as suas mensagens</h1>
+                <p>Mensagens e chamadas privadas simples, seguras e gratuitas*, disponíveis em todo o mundo.</p>
+                <a class="buttonDownload" href=""><p>Baixar</p> <i class="fa-solid fa-arrow-down"></i></a>
+            </div>
+        </div>
+    </main>
 </body>
+<script src="script/MenuButton.js"></script>
 <script src="https://kit.fontawesome.com/bb2d553a57.js" crossorigin="anonymous"></script>
 </html>

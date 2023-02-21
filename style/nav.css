@@ -1,11 +1,78 @@
+header{
+    background: rgba( 255, 255, 255, 0.25 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    position: absolute;
+    z-index: 1;
+
+    width: 100%;
+}
+
 nav{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 
     margin: 10px;
+    
 }
 
 #logoNav img{
     max-width: 45px;
+}
+nav button{
+    width: 45px;
+    height: 45px;
+
+    border: none;
+    background: none;
+
+    cursor: pointer;
+}
+
+nav a , .buttonDownload{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 90px;
+    padding: 10px;
+
+    background: var(--cor-flow);
+    border-radius: 100px;
+
+    color: #fff;
+    text-decoration: none;
+}
+
+nav p{
+    text-decoration: none;
+    margin: 0;
+}
+.buttonDownload p{
+    text-decoration: none;
+    margin: 0;
+}
+
+nav a:hover{
+    background: #353535;
+
+    transition: .7s;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+@media(max-width:820px){
+    nav p{
+        display: none;
+    }
+    nav a{
+        width: auto;
+        padding: 10px 12px;
+    }
+
 }
