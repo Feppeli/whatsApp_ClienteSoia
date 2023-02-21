@@ -33,7 +33,7 @@ nav button{
     cursor: pointer;
 }
 
-nav a , .buttonDownload{
+nav a {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -52,10 +52,7 @@ nav p{
     text-decoration: none;
     margin: 0;
 }
-.buttonDownload p{
-    text-decoration: none;
-    margin: 0;
-}
+
 
 nav a:hover{
     background: #353535;
