@@ -2,4 +2,39 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    padding-top: 90px;
+}
+
+#call1Text i{
+    color: var(--cor-flow);
+    margin-left: 4px;
+}
+
+#call1Text a{
+    color: #000;
+    text-decoration: underline;
+}
+
+#call1Img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(min-width:750px){
+    #call1{
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-top: 150px;
+    }
+    #call1Text{
+        max-width: 600px;
+    }
+    #call1Text h1{
+        font-size: 46px;
+    }
+    #call1Text p{
+        font-size: 18px
+    }
 }
