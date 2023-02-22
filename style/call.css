@@ -1,4 +1,4 @@
-#call1{
+#call1, #callBox2{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,12 +6,16 @@
     padding-top: 90px;
 }
 
-#call1Text i{
+#call2{
+    background: #1c1e21;
+}
+
+.call1Text i{
     color: var(--cor-flow);
     margin-left: 4px;
 }
 
-#call1Text a{
+.call1Text a{
     color: #000;
     text-decoration: underline;
 }
@@ -28,13 +32,44 @@
         justify-content: space-evenly;
         padding-top: 150px;
     }
-    #call1Text{
+        #callBox2 {
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        padding-top: 150px;
+    }
+    #call2 .call1Text{
+        margin-left: 15px;
+    }
+    .call1Text{
         max-width: 600px;
     }
-    #call1Text h1{
+    .call1Text h1{
         font-size: 46px;
     }
-    #call1Text p{
+    .call1Text p{
         font-size: 18px
     }
+}
+
+/* Call2 */
+
+#call2 h1{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#first{
+    color: #fff;
+}
+#second{
+    color: var(--cor-flow);
+}
+#call2 p{
+    color: #fff;
+}
+
+#call2 a{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
 }
