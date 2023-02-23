@@ -1,6 +1,5 @@
 header{
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    width: 100%;  
+    padding-bottom: 1px;
 }
 
 nav{
@@ -14,11 +13,16 @@ nav{
     justify-content: space-between;
     align-items: center;
 
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     position: fixed;
     z-index: 1;
 
     width: 100%;
+
+
     
 }
 
@@ -46,8 +50,10 @@ nav a {
     background: var(--cor-flow);
     border-radius: 100px;
 
-    color: #fff;
+    color: #000;
     text-decoration: none;
+
+    border: 1px solid #000;
 }
 
 nav p{
