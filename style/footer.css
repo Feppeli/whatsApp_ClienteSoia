@@ -1,0 +1,65 @@
+#footerMobile{
+    border-radius:  10px 10px 0px 0px;
+    background: #1c1e21;
+}
+
+
+#buttonBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--cor-flow);
+
+    
+    margin: 30px;
+    height: 40px;
+    border-radius: 100px;
+}
+
+#buttonDownload {
+    color: #1c1e21;
+    font-weight: 600;
+
+}
+
+/* Social */
+
+#Social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    max-width: 350px;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+#Social a{
+    border: 1px solid #fff;
+    color: #fff;
+    background: #292929;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 45px;
+    width: 45px;
+
+    border-radius: 100px;
+}
+
+/* logoFooter */
+
+#logoFooter{
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+
+#logoFooter img{
+    max-width: 110px;
+}
