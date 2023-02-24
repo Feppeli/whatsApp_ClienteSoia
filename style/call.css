@@ -17,7 +17,7 @@
 
 .call1Text a{
     color: #000;
-    text-decoration: underline;
+    font-weight: bold;
 }
 
 #call1Img{

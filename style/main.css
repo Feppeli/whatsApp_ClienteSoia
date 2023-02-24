@@ -56,10 +56,10 @@ main{
 
 .buttonDownload{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     text-align: center;
-    width: 90px;
+    width: 120px;
     padding: 10px;
 
     background: var(--cor-flow);
@@ -72,13 +72,13 @@ main{
 }
 .buttonDownload p{
     text-decoration: none;
-    margin: 0;
+    margin: 3px;
 }
 
 .buttonDownload:hover{
-    color: #fff;
+    color: #000;
     text-decoration: none;
-    background: #353535;
+    background: #fff;
     transition: .5s;
 }
 
