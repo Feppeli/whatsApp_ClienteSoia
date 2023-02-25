@@ -1,5 +1,5 @@
 #menuOptions{
-    padding-top: 60px;
+    padding-top: 90px;
     padding-right: 30px;
     padding-left:30px ;
     min-height: 300px;
@@ -47,9 +47,10 @@
     background: var(--cor-flow);
     width: 30px;
     height: 30px;
-    margin-right: 10px;
+    margin: 10px;
 
     border-radius: 100px;
+
 }
 
 #seta{
@@ -62,6 +63,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 #menuOptions a:hover{
