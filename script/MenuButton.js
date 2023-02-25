@@ -1,3 +1,3 @@
 function menu () {
-    alert('Funcionando')
+    window.location.href = "../page/menu.html"
 }
