@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="../style/global.css">
     <link rel="stylesheet" href="../style/nav.css">
     <link rel="stylesheet" href="../style/footer.css">
-    <link rel="stylesheet" href="../page/style/collapse.css">
+    <link rel="stylesheet" href="../page/style/about.css">
+
     <title>Document</title>
 </head>
 <body>
@@ -24,58 +25,35 @@
         </nav>
     </header>
 
-    <section id="menuOptions">
-        <a href="/"><h1>Página inicial</h1></a>
-        <a  data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" style="display: flex; justify-content: space-between;">
-          <h1>Recursos</h1>
-          <h1>-</h1>
-        </a>
-        <a href="./about.html">
-            <h1>Sobre</h1>
-        </a>
-        <div class="collapse" id="collapseExample">
-            <div id="collapseBox">
-                <div id="contentBox">
-                    <div class="recursosTxt">
-                        <div>
-                            <i id="contentIcon" class="fa-solid fa-lock"></i>
-                        </div>
-                        <p>Envie mensagens com privacidade <i id="seta" class="fa-solid fa-arrow-right"></i></p>
-                    </div>
-    
-                    <div class="recursosTxt">
-                        <div>
-                            <i id="contentIcon" class="fa-solid fa-earth-americas"></i>
-                        </div>
-                        <p>Mantenha a conexão <i id="seta" class="fa-solid fa-arrow-right"></i></p>
-                    </div>
-    
-                    <div class="recursosTxt">
-                        <div>
-                            <i id="contentIcon" class="fa-solid fa-user-group"></i>
-                        </div>
-                        <p>Crie comunidades <i id="seta" class="fa-solid fa-arrow-right"></i></p>
-                    </div>
-    
-                    <div class="recursosTxt">
-                        <div>
-                            <i id="contentIcon" class="fa-solid fa-face-laugh-beam"></i>
-                        </div>
-                        <p>Expresse sua personalidade </p>
-                        <i id="seta" class="fa-solid fa-arrow-right"></i>
-                    </div>
-    
-                    <div class="recursosTxt">
-                        <div>
-                            <i id="contentIcon" class="fa-solid fa-store"></i>
-                        </div>
-                        <p>WhatsApp para empresas <i id="seta" class="fa-solid fa-arrow-right"></i></p>
-                    </div>
-                </div>
+
+    <section id="about" class="container">
+        <h1 id="mainTxt">Sobre o WhatsApp</h1>
+        <div id="bodyTxt">
+            <div>
+                <h1>Nosso app</h1>
+
+                <p>Mais de dois bilhões de pessoas em mais de 180 países usam o WhatsApp1 para se conectar com amigos e familiares, a qualquer hora e em qualquer lugar. O WhatsApp é gratuito2 e está disponível para celulares em todo o mundo. Troque mensagens e faça chamadas de maneira simples, segura e confiável.</p>
+                <br>
+                <p>1 E sim, o nome WhatsApp é um trocadilho com a expressão ''What's up'' em inglês, que significa ''E aí?''.</p>
+                <br>
+                <p>2 Sujeito à cobrança de dados.</p>
+            </div>
+            <div>
+                <h1>Nossa missão</h1>
+
+                <p>O WhatsApp começou como uma alternativa ao SMS. Nosso produto agora oferece suporte ao envio e recebimento de uma variedade de mídias: texto, fotos, vídeos, documentos e localização, assim como chamadas de voz. Alguns dos seus momentos mais pessoais são compartilhados por meio do WhatsApp, e é por isso que implementamos a criptografia de ponta a ponta em nosso aplicativo. Por trás de cada decisão de produto, existe nosso desejo de possibilitar que as pessoas se comuniquem em qualquer lugar do mundo sem barreiras.</p>
+            </div>
+
+            <div>
+                <h1>Nossa equipe</h1>
+
+                <p>O WhatsApp foi fundado por Jan Koum e Brian Acton, que já haviam trabalhado juntos no Yahoo por 20 anos. O WhatsApp se juntou ao Facebook em 2014, mas continua a operar como um app separado com foco no serviço de mensagens rápido e confiável em qualquer lugar do mundo.</p>
             </div>
         </div>
 
     </section>
+
+
 
 
     <footer id="footerMobile" >
@@ -168,7 +146,4 @@
 </body>
 <script src="../script/MenuButton.js"></script>
 <script src="https://kit.fontawesome.com/bb2d553a57.js" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </html>
